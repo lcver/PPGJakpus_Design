@@ -18,7 +18,6 @@ class App
          * 
          * @return Controller
          */
-        $this->controller = $this->controller."Controller";
 
         if(isset($url[0])){
             if(file_exists(CPATH.$url[0].'Controller.php'))

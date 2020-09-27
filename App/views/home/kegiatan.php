@@ -14,10 +14,14 @@
         }
         .jumbotron-img {
             background-image: url(<?=BASEURL?>dist/img/photo1.png);
+            background-size: cover;
         }
         .jumbotron {
             height: 80vh;
-            border-radius: 0 0 5% 50%;
+            /* border-radius: 0 0 5% 50%; */
+        }
+        .img-mycustom {
+            max-height: 200px;
         }
     </style>
 </head>
@@ -69,9 +73,9 @@
                         <h5 class="pb-1 mb-3 border-warning border-bottom" style="border-color: yellow;">Festival Anak Sholeh</h5>
                         <div class="col-md-12">
                             <div class="row">
-                                <img src="<?=BASEURL?>dist/img/photo2.png" class="img-thumbnail m-0 p-0  col-md-3" alt="">
-                                <img src="<?=BASEURL?>dist/img/photo3.jpg" class="img-thumbnail m-0 p-0  col-md-3" alt="">
-                                <img src="<?=BASEURL?>dist/img/photo4.jpg" class="img-thumbnail m-0 p-0  col-md-3" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo2.png" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo3.jpg" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo4.jpg" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
                                 <div class="col-md-3 rounded text-center">
                                     <button class="btn btn-primary my-5">View More</button>
                                 </div>
@@ -84,9 +88,9 @@
                         <h5 class="pb-1 mb-3 border-warning border-bottom" style="border-color: yellow;">Bimbingan dan Konseling Orang Tua</h5>
                         <div class="col-md-12">
                             <div class="row">
-                                <img src="<?=BASEURL?>dist/img/photo2.png" class="img-thumbnail m-0 p-0  col-md-3" alt="">
-                                <img src="<?=BASEURL?>dist/img/photo3.jpg" class="img-thumbnail m-0 p-0  col-md-3" alt="">
-                                <img src="<?=BASEURL?>dist/img/photo4.jpg" class="img-thumbnail m-0 p-0  col-md-3" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo2.png" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo3.jpg" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo4.jpg" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
                                 <div class="col-md-3 rounded text-center">
                                     <button class="btn btn-primary my-5">View More</button>
                                 </div>
@@ -99,9 +103,9 @@
                         <h5 class="pb-1 mb-3 border-warning border-bottom" style="border-color: yellow;">Pengajian Rutin Muda-Mudi</h5>
                         <div class="col-md-12">
                             <div class="row">
-                                <img src="<?=BASEURL?>dist/img/photo2.png" class="img-thumbnail m-0 p-0  col-md-3" alt="">
-                                <img src="<?=BASEURL?>dist/img/photo3.jpg" class="img-thumbnail m-0 p-0  col-md-3" alt="">
-                                <img src="<?=BASEURL?>dist/img/photo4.jpg" class="img-thumbnail m-0 p-0  col-md-3" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo2.png" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo3.jpg" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
+                                <img src="<?=BASEURL?>dist/img/photo4.jpg" class="img-thumbnail m-0 p-0  col-md-3 img-mycustom" alt="">
                                 <div class="col-md-3 rounded text-center">
                                     <button class="btn btn-primary my-5">View More</button>
                                 </div>

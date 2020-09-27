@@ -14,10 +14,11 @@
         }
         .jumbotron-img {
             background-image: url(<?=BASEURL?>dist/img/photo1.png);
+            background-size: cover;
         }
         .jumbotron {
             height: 80vh;
-            border-radius: 0 0 5% 50%;
+            /* border-radius: 0 0 5% 50%; */
         }
     </style>
 </head>

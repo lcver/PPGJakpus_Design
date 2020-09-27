@@ -21,12 +21,13 @@ class App
         $this->controller = $this->controller."Controller";
 
         if(isset($url[0])){
-            if(file_exists(CPATH.$url[0].'.php'))
+            if(file_exists(CPATH.$url[0].'Controller.php'))
             {
                 $this->controller = $url[0];
                 unset($url[0]);
             }
         }
+        $this->controller = $this->controller."Controller";
         // var_dump($this->controller);
 
         $this->controller = new $this->controller;
